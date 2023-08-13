@@ -1,5 +1,5 @@
-{% set version = "1.10.0" %}
-{% set sha256 = "e6ae26ad30376bef6272024564764ba7bf5756063dc94cc4b74180cd004ab75e" %}
+{% set version = "1.10.2" %}
+{% set sha256 = "36557dae87de4cdd257d9b441d9a7f043290eae6666fb1065e0fa486ae3e58a0" %}
 
 package:
   name: azure-core-cpp
@@ -58,8 +58,7 @@ about:
   home: https://github.com/Azure/azure-sdk-for-cpp/
   summary: Azure SDK Core Library for C++
   description: >-
-    Azure::Core (`azure-core`) provides shared primitives, abstractions, and
-    helpers for modern Azure SDK client libraries written in the C++
+    Azure::Core (`azure-core`) provides shared primitives, abstractions, and helpers for modern Azure SDK client libraries written in the C++
   license: MIT
   license_family: MIT
   license_file:
