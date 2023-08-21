@@ -15,8 +15,11 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64
 libcurl:
-- '8'
+- '7'
 openssl:
-- '3'
+- 1.1.1
 target_platform:
 - linux-aarch64
+zip_keys:
+- - openssl
+  - libcurl

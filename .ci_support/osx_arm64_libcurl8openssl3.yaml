@@ -16,3 +16,6 @@ openssl:
 - '3'
 target_platform:
 - osx-arm64
+zip_keys:
+- - openssl
+  - libcurl
